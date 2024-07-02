@@ -1,18 +1,18 @@
 Algoritmo "consumo"
 
-
 Var
- distancia, combustivel, consumoMedio : real
+ distancia : inteiro
+ combustivel, consumo : real
 
 
 Inicio
- escreva("Distância percorrida: ")
+ escreva("Distancia percorrida: ")
  leia(distancia)
- escreva("Combustível gasto: ")
+ escreva("Combustivel gasto: ")
  leia(combustivel)
  
- consumoMedio <- (distancia + combustivel) / 2
- escreva("Consumo médio = ", consumoMedio:8:3)
+ consumo <- distancia / combustivel
+ escreva("Consumo medio = ", consumo:8:3)
 
 
 Fimalgoritmo
